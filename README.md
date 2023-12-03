@@ -21,5 +21,6 @@ This lightweight and user-friendly TodoList application was made using only HTML
 
 ## Demo:
 Check out demo video to see the TodoList in action:
+
 https://github.com/tarunchoudhary3884/To-Do-List/assets/85241851/5c0eb0f1-c229-47bc-a318-9262ce91711f
 
