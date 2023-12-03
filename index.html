@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/cfdaf72bb4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter:400,500,600,700,800,900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>To Do List</title>
+  </head>
+  <body>
+    <div class="todo">
+      <div>
+        To Do List
+        <i class="fa-solid fa-list-check"></i>
+      </div>
+      <button id="toggleButton"></button>
+    </div>
+    <div id="main">
+      <form autocomplete="off">
+        <input
+          type="text"
+          id="taskName"
+          placeholder="Task Name"
+          required
+          autofocus
+        />
+        <input
+          type="text"
+          id="taskDescription"
+          placeholder="Task Description"
+        />
+        <div class="formButtons">
+          <button id="addItemButton">
+            Add
+            <i class="fa-solid fa-plus"></i>
+          </button>
+          <button id="eraseButton">
+            Erase
+            <i class="fa-solid fa-eraser"></i>
+          </button>
+        </div>
+      </form>
+      <div class="taskList">
+        <div class="pendingTaskContainer">
+          Pending Task <i class="fa-solid fa-clock-rotate-left"></i>
+          <ul id="pendingListContainer"></ul>
+        </div>
+        <div class="completedTaskContainer">
+          Completed Task <i class="fa-solid fa-clipboard-check"></i>
+          <ul id="completedListContainer"></ul>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

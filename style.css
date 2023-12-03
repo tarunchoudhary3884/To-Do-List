@@ -1,0 +1,121 @@
+:root {
+  --light: #eee;
+  --grey: #888;
+  --dark: #081020;
+  --darkTangerine: #ffa812;
+  --shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  --inputShadow: 0px 2px var(--darkTangerine);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  list-style: none;
+  text-decoration: none;
+}
+input {
+  all: unset;
+  appearance: none;
+  border: none;
+  background: none;
+  cursor: initial;
+  margin: 10px 5px;
+  font-size: 1.2rem;
+  outline-color: var(--darkTangerine);
+  width: calc(100% - 25px);
+  background-color: transparent;
+}
+input:focus {
+  outline: none;
+  box-shadow: var(--inputShadow);
+}
+#main {
+  background: var(--light);
+  color: var(--dark);
+  margin: 2vh 10vw;
+  padding: 10px;
+}
+h1 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+h3 {
+  color: var(--grey);
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+button {
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  box-shadow: var(--shadow);
+  background-color: var(--darkTangerine);
+  padding: 10px;
+  font-weight: 600;
+}
+form {
+  background-color: whitesmoke;
+  box-shadow: var(--shadow);
+  margin: 10px;
+  padding: 5px 10px;
+}
+li {
+  background-color: whitesmoke;
+  box-shadow: var(--shadow);
+  margin-top: 10px;
+  padding: 5px 10px;
+}
+.todo {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  box-shadow: var(--shadow);
+  background-color: whitesmoke;
+}
+.todo div {
+  margin: 10px 20px;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+.todo button {
+  border-radius: 25px;
+  height: 40px;
+  width: 40px;
+  margin-right: 20px;
+}
+.pendingTaskContainer,
+.completedTaskContainer {
+  margin: 20px 10px;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+button:active {
+  transform: translateY(4px);
+}
+.darkMode {
+  color: var(--light);
+  background-color: rgb(57, 57, 57);
+}
+.darkMode li,
+.darkMode .todo,
+.darkMode form {
+  background-color: rgb(36, 36, 36);
+}
+.darkMode #main {
+  background-color: rgb(69, 69, 69);
+  color: var(--light);
+}
+.darkMode input {
+  color: var(--light);
+}
