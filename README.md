@@ -14,7 +14,12 @@ This lightweight and user-friendly TodoList application was made using only HTML
 2. Open `index.html` in your preferred web browser.
 3. Start managing your tasks efficiently!
 
+## Images:
+![todoLightTheme](images/todoLightTheme.png)
+![todoDarkTheme](images/todoDarkTheme.png)
+![todoList](images/todo.png)
+
 ## Demo:
 Check out demo video to see the TodoList in action:
-![todoLightTheme](https://github.com/tarunchoudhary3884/To-Do-List/assets/85241851/c62d6599-0dba-499f-b3be-fc74c4373c8c)
-![todoDarkTheme](https://github.com/tarunchoudhary3884/To-Do-List/assets/85241851/be50fd45-834f-43d7-966c-8dc31b45dc72)
+https://github.com/tarunchoudhary3884/To-Do-List/assets/85241851/5c0eb0f1-c229-47bc-a318-9262ce91711f
+
